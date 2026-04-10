@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bhabani Shankar Biswal - Data Analyst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Cabinet+Grotesk:wght@300;400;500;700;800&family=Fira+Code:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="loader-text">
+      <span class="l-line">Initializing portfolio</span>
+      <span class="l-bar"><span id="lbar-fill"></span></span>
+      <span class="l-pct" id="lpct">0%</span>
+    </div>
+  </div>
+
+  <!-- CURSOR -->
+  <div id="cursor"></div>
+  <div id="cursor-trail"></div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <a href="#hero" class="logo">Bhabani Shankar Biswal<span>.</span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about" class="nav-a">About</a></li>
+      <li><a href="#skills" class="nav-a">Skills</a></li>
+      <li><a href="#experience" class="nav-a">Experience</a></li>
+      <li><a href="#projects" class="nav-a">Projects</a></li>
+      <li><a href="#contact" class="nav-a">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-hire">Hire Me ↗</a>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg-text">DATA</div>
+    <div class="hero-content">
+      <div class="hero-top">
+        <div class="hero-badge">
+          <span class="badge-dot"></span> 
+          Available for Work
+        </div>
+        <div class="hero-scroll-hint">Scroll ↓</div>
+      </div>
+      <h1 class="hero-heading">
+        <span class="h-line" data-text="TURNING">TURNING</span>
+        <span class="h-line accent" data-text="DATA">DATA</span>
+        <span class="h-line" data-text="INTO">INTO</span>
+        <span class="h-line stroke" data-text="INSIGHT">INSIGHT</span>
+      </h1>
+      <div class="hero-bottom">
+        <div class="hero-intro">
+          <p>Hi, I'm <strong>Bhabani Shankar Biswal</strong> - a Data Analyst skilled in Python, SQL, PostgreSQL, Power BI &amp; Excel. I turn raw numbers into decisions that matter.</p>
+          <div class="hero-btns">
+            <a href="#projects" class="btn-filled">View Work</a>
+            <a href="#contact" class="btn-ghost">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-counters">
+          <div class="counter-item">
+            <span class="c-num" data-target="9">0</span><span class="c-plus">+</span>
+            <span class="c-label">Projects</span>
+          </div>
+          <div class="counter-item">
+            <span class="c-num" data-target="5">0</span><span class="c-plus">+</span>
+            <span class="c-label">Tools</span>
+          </div>
+          <div class="counter-item">
+            <span class="c-num" data-target="1">0</span>
+            <span class="c-label">Internship</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-marquee-wrap">
+      <div class="marquee">
+        <span>Python &nbsp;·&nbsp; SQL &nbsp;·&nbsp; PostgreSQL &nbsp;·&nbsp; Power BI &nbsp;·&nbsp; Excel &nbsp;·&nbsp; Pandas &nbsp;·&nbsp; NumPy &nbsp;·&nbsp; Seaborn &nbsp;·&nbsp; Matplotlib &nbsp;·&nbsp; Data Analysis &nbsp;·&nbsp; EDA &nbsp;·&nbsp; Dashboard &nbsp;·&nbsp;</span>
+        <span>Python &nbsp;·&nbsp; SQL &nbsp;·&nbsp; PostgreSQL &nbsp;·&nbsp; Power BI &nbsp;·&nbsp; Excel &nbsp;·&nbsp; Pandas &nbsp;·&nbsp; NumPy &nbsp;·&nbsp; Seaborn &nbsp;·&nbsp; Matplotlib &nbsp;·&nbsp; Data Analysis &nbsp;·&nbsp; EDA &nbsp;·&nbsp; Dashboard &nbsp;·&nbsp;</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="section-tag reveal">01 / About</div>
+      <div class="about-grid">
+        <div class="about-left reveal">
+          <h2 class="section-heading">I speak<br/><em>data</em> fluently.</h2>
+          <p>I'm a fresher Data Analyst who loves transforming raw, messy datasets into clean, meaningful insights. Whether it's writing optimized SQL queries or building Power BI dashboards that turn complex numbers into clear business decisions — I bring precision and purpose to every project.</p>
+          <p>My internship at <strong>Codec Technologies India</strong> gave me real-world exposure — working with live business data, writing production SQL queries, and delivering insights that directly supported business decisions.</p>
+        </div>
+        <div class="about-right reveal">
+          <div class="about-card">
+            <div class="ac-row"><span class="ac-k">Name</span><span class="ac-v">Bhabani Shankar Biswal</span></div>
+            <div class="ac-row"><span class="ac-k">Role</span><span class="ac-v accent-text">Data Analyst</span></div>
+            <div class="ac-row"><span class="ac-k">Location</span><span class="ac-v">India</span></div>
+            <div class="ac-row"><span class="ac-k">Experience</span><span class="ac-v">Internship + 9 Projects</span></div>
+            <div class="ac-row"><span class="ac-k">Education</span><span class="ac-v">B.Tech, Satyasai Engineering College</span></div>
+            <div class="ac-row"><span class="ac-k">Status</span><span class="ac-v open">● Open to Roles</span></div>
+            <a href="https://drive.google.com/file/d/1MA_d7hXtXM7BOJnJ6dxjHzsyU5w4aMFT/view" class="ac-resume">Download Resume ↓</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-tag reveal">02 / Skills</div>
+      <h2 class="section-heading reveal">The Toolkit</h2>
+      <div class="skills-grid">
+
+        <div class="skill-block reveal">
+          <div class="sb-icon">🐍</div>
+          <div class="sb-info">
+            <div class="sb-name">Python</div>
+            <div class="sb-sub">Pandas · NumPy · Matplotlib · Seaborn</div>
+          </div>
+          <div class="sb-track"><div class="sb-fill" data-w="88"></div></div>
+          <div class="sb-pct">88%</div>
+        </div>
+
+        <div class="skill-block reveal">
+          <div class="sb-icon">🗄️</div>
+          <div class="sb-info">
+            <div class="sb-name">SQL</div>
+            <div class="sb-sub">Joins · CTEs · Window Functions · Subqueries</div>
+          </div>
+          <div class="sb-track"><div class="sb-fill" data-w="88"></div></div>
+          <div class="sb-pct">88%</div>
+        </div>
+
+        <div class="skill-block reveal">
+          <div class="sb-icon">🐘</div>
+          <div class="sb-info">
+            <div class="sb-name">PostgreSQL</div>
+            <div class="sb-sub">DB Design · Optimization · Stored Procedures</div>
+          </div>
+          <div class="sb-track"><div class="sb-fill" data-w="76"></div></div>
+          <div class="sb-pct">76%</div>
+        </div>
+
+        <div class="skill-block reveal">
+          <div class="sb-icon">📊</div>
+          <div class="sb-info">
+            <div class="sb-name">Power BI</div>
+            <div class="sb-sub">DAX · Interactive Dashboards · Data Modeling</div>
+          </div>
+          <div class="sb-track"><div class="sb-fill" data-w="75"></div></div>
+          <div class="sb-pct">75%</div>
+        </div>
+
+        <div class="skill-block reveal">
+          <div class="sb-icon">📗</div>
+          <div class="sb-info">
+            <div class="sb-name">Excel</div>
+            <div class="sb-sub">Pivot Tables · VLOOKUP · Charts · Macros</div>
+          </div>
+          <div class="sb-track"><div class="sb-fill" data-w="85"></div></div>
+          <div class="sb-pct">85%</div>
+        </div>
+
+        <div class="skill-block reveal">
+          <div class="sb-icon">📈</div>
+          <div class="sb-info">
+            <div class="sb-name">Data Visualization</div>
+            <div class="sb-sub">Seaborn · Matplotlib · Power BI Visuals</div>
+          </div>
+          <div class="sb-track"><div class="sb-fill" data-w="82"></div></div>
+          <div class="sb-pct">82%</div>
+        </div>
+
+        <div class="skill-block reveal">
+          <div class="sb-icon">🧹</div>
+          <div class="sb-info">
+            <div class="sb-name">Data Cleaning &amp; EDA</div>
+            <div class="sb-sub">Wrangling · Transformation · Feature Analysis</div>
+          </div>
+          <div class="sb-track"><div class="sb-fill" data-w="95"></div></div>
+          <div class="sb-pct">95%</div>
+        </div>
+
+        <div class="skill-block reveal">
+          <div class="sb-icon">🧠</div>
+          <div class="sb-info">
+            <div class="sb-name">Business Analytics</div>
+            <div class="sb-sub">KPIs · Reporting · Insights · Storytelling</div>
+          </div>
+          <div class="sb-track"><div class="sb-fill" data-w="80"></div></div>
+          <div class="sb-pct">80%</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-tag reveal">03 / Experience</div>
+      <h2 class="section-heading reveal">Where I've Worked</h2>
+      <div class="exp-wrapper reveal">
+        <div class="exp-timeline-line"></div>
+        <div class="exp-item">
+          <div class="exp-dot"></div>
+          <div class="exp-date">Feb 2026 - Mar 2026</div>
+          <div class="exp-card">
+            <div class="exp-head">
+              <div>
+                <div class="exp-role">Data Analyst Intern</div>
+                <div class="exp-company">Codec Technologies India</div>
+              </div>
+              <span class="exp-type">Remote · 1 Month</span>
+            </div>
+            <ul class="exp-bullets">
+              <li>Cleaned and analyzed <strong>large real-world business datasets</strong> using Python and Pandas to ensure accuracy for reporting pipelines.</li>
+              <li>Wrote <strong>optimized SQL queries</strong> to extract, join, and aggregate data from relational databases for operational dashboards.</li>
+              <li>Built <strong>Power BI dashboards</strong> that visualized KPIs and business performance metrics for stakeholders.</li>
+              <li>Identified <strong>trends, anomalies, and growth opportunities</strong> in sales data through exploratory analysis and visualization.</li>
+              <li>Delivered <strong>clear written reports</strong> summarizing findings and recommending data-driven action plans to the team.</li>
+            </ul>
+            <div class="exp-tags">
+              <span>Python</span><span>SQL</span><span>Power BI</span><span>Excel</span><span>Pandas</span><span>Numpy</span><span>Matplotlib</span><span>Seaborn</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-tag reveal">04 / Projects</div>
+      <h2 class="section-heading reveal">9+ Projects Built</h2>
+
+      <div class="proj-filters reveal">
+        <button class="pf active" data-filter="all">All <span>9</span></button>
+        <button class="pf" data-filter="python">Python</button>
+        <button class="pf" data-filter="sql">SQL</button>
+        <button class="pf" data-filter="powerbi">Power BI</button>
+        <button class="pf" data-filter="excel">Excel</button>
+      </div>
+
+      <div class="proj-grid" id="projGrid">
+
+        <div class="proj-card reveal" data-tags="python sql">
+          <div class="pc-num">01</div>
+          <div class="pc-emoji">🛒</div>
+          <div class="pc-tags"><span class="pct">Python</span><span class="pct">SQL</span><span class="pct amber">Power BI</span></div>
+          <div class="pc-title">Retail Market Basket Analysis</div>
+          <div class="pc-desc">Association rule mining to identify product affinities across 50K+ transactions using Apriori algorithm.</div>
+          <div class="pc-foot">
+            <span class="pc-tools">Pandas · Mlxtend · Seaborn</span>
+            <a href="https://github.com/Bsbiswal231/Retail-Market-Basket-Analysis" class="pc-link">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="proj-card reveal" data-tags="python powerbi">
+          <div class="pc-num">02</div>
+          <div class="pc-emoji">💳</div>
+          <div class="pc-tags"><span class="pct">Python</span><span class="pct">SQL</span><span class="pct amber">Power BI</span></div>
+          <div class="pc-title">Credit Card Customer Growth Analysis</div>
+          <div class="pc-desc">Analyzed acquisition, churn &amp; LTV for a credit card portfolio with MoM tracking Power BI dashboard.</div>
+          <div class="pc-foot">
+            <span class="pc-tools">Python · Sql · Pandas · Power BI · DAX</span>
+            <a href="https://github.com/Bsbiswal231/Credit-Card-Customer-Growth-Engagement-Analysis" class="pc-link">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="proj-card reveal" data-tags="sql python powerbi">
+          <div class="pc-num">03</div>  
+          <div class="pc-emoji">🏥</div>
+          <div class="pc-tags"><span class="pct">SQL</span><span class="pct amber">Python</span><span class="pct amber">Power BI</span></div>
+          <div class="pc-title">Healthcare Patient Billing Analysis</div>
+          <div class="pc-desc">Identified revenue leakage and unpaid claims by analyzing patient billing records using Python, SQL queries, and interactive Power BI dashboards.</div>
+          <div class="pc-foot">
+            <span class="pc-tools">PostgreSQL · Python · Power BI</span>
+            <a href="https://github.com/Bsbiswal231/Healthcare-Operations-Cost-Analysis" class="pc-link">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="proj-card reveal" data-tags="python sql">
+          <div class="pc-num">04</div>
+          <div class="pc-emoji">🛍️</div>
+          <div class="pc-tags"><span class="pct">Python</span><span class="pct">SQL</span><span class="pct amber">Power BI</span></div>
+          <div class="pc-title">Customer Shopping Behavior Analysis</div>
+          <div class="pc-desc">End-to-end customer shopping behavior analysis with Python-based data cleaning, feature engineering, EDA, SQL queries, and a Power BI dashboard to uncover trends and drive retail insights.</div>
+          <div class="pc-foot">
+            <span class="pc-tools">Python · PostgreSQL · Power BI</span>
+            <a href="https://github.com/Bsbiswal231/Customer-Shopping-Behavior-Analysis" class="pc-link">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="proj-card reveal" data-tags="powerbi excel">
+          <div class="pc-num">05</div>
+          <div class="pc-emoji">📦</div>
+          <div class="pc-tags"><span class="pct amber">Python</span><span class="pct amber">SQL</span></div>
+          <div class="pc-title">Vendor Sales Performance Analysis</div>
+          <div class="pc-desc">SQL and Python-based analytics project focused on vendor profitability, inventory performance, and business KPI generation.</div>
+          <div class="pc-foot">
+            <span class="pc-tools">Python · SQL</span>
+            <a href="https://github.com/Bsbiswal231/Vendor-Sales-Performance-Analysis" class="pc-link">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="proj-card reveal" data-tags="python sql">
+          <div class="pc-num">06</div>
+          <div class="pc-emoji">🛺</div>
+          <div class="pc-tags"><span class="pct">Excel</span><span class="pct">SQL</span><span class="pct amber">Power BI</span></div>
+          <div class="pc-title">Ola Rides Data Analyst</div>
+          <div class="pc-desc">A data analysis project using Excel, SQL, and Power BI to evaluate Ola ride trends, revenue, cancellations, and ratings. Cleaned with SQL and visualized through five dashboards, it delivers clear insights for better operations and decision-making.</div>
+          <div class="pc-foot">
+            <span class="pc-tools">Excel · SQL · Power BI</span>
+            <a href="https://github.com/Bsbiswal231/Ola-rides-Data-Analyst" class="pc-link">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="proj-card reveal" data-tags="sql excel">
+          <div class="pc-num">07</div>
+          <div class="pc-emoji">🏦</div>
+          <div class="pc-tags"><span class="pct">Excel</span><span class="pct">SQL</span><span class="pct amber">Power BI</span></div>
+          <div class="pc-title">Bank Loan Analysis</div>
+          <div class="pc-desc">A Power BI, SQL, and Excel project analyzing bank loan data to evaluate loan performance, repayments, and borrower behavior. It tracks key KPIs like total applications, funded amounts, and interest rates, revealing trends in good vs. bad loans, regions, and demographics to improve loan management and minimize risk.</div>
+          <div class="pc-foot">
+            <span class="pc-tools"> Excel · SQL · Power BI</span>
+            <a href="https://github.com/Bsbiswal231/Bank-Loan-Data-Analysis" class="pc-link">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="proj-card reveal" data-tags="Excel">
+          <div class="pc-num">08</div>
+          <div class="pc-emoji">🚨</div>
+          <div class="pc-tags"><span class="pct">Excel</span></div>
+          <div class="pc-title">Road Accident Analysis</div>
+          <div class="pc-desc">Analyzed accident data using Excel to identify high-risk zones, understand cause patterns, and support data-driven road safety improvements.</div>
+          <div class="pc-foot">          
+            <span class="pc-tools">Excel</span>
+            <a href="https://github.com/Bsbiswal231/Road-Accident-Data-Analysis" class="pc-link">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="proj-card reveal" data-tags="powerbi sql">
+          <div class="pc-num">09</div>
+          <div class="pc-emoji">☕</div>
+          <div class="pc-tags"><span class="pct amber">Power BI</span><span class="pct">SQL</span></div>
+          <div class="pc-title">Coffee Shop Sales Analysis</div>
+          <div class="pc-desc">A data analysis project using SQL and Power BI to explore coffee shop sales performance. It visualizes key metrics like total sales, orders, and quantity sold, revealing peak hours, top products, and high-performing stores. The dashboard provides actionable insights to boost revenue and optimize business decisions.</div>
+          <div class="pc-foot">
+            <span class="pc-tools">Power BI · SQL · DAX</span>
+            <a href="https://github.com/Bsbiswal231/Coffee-Shop-Sales-Data-Analysis" class="pc-link">GitHub ↗</a>
+          </div>
+        </div>
+
+        <!--<div class="proj-card reveal" data-tags="python excel">
+          <div class="pc-num">10</div>
+          <div class="pc-emoji">🧑‍💼</div>
+          <div class="pc-tags"><span class="pct">Python</span><span class="pct amber">Excel</span></div>
+          <div class="pc-title">HR Attrition Analysis</div>
+          <div class="pc-desc">IBM HR dataset — department patterns, satisfaction scores, and salary band attrition correlation.</div>
+          <div class="pc-foot">
+            <span class="pc-tools">Pandas · Seaborn · Excel</span>
+            <a href="#" class="pc-link">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="proj-card reveal" data-tags="python excel">
+          <div class="pc-num">11</div>
+          <div class="pc-emoji">📊</div>
+          <div class="pc-tags"><span class="pct">Python</span><span class="pct amber">Excel</span></div>
+          <div class="pc-title">Sales Forecasting Dashboard</div>
+          <div class="pc-desc">Quarterly sales forecasting with seasonal decomposition, trend visualization, and Excel summary.</div>
+          <div class="pc-foot">
+            <span class="pc-tools">Pandas · Excel · Trend Analysis</span>
+            <a href="#" class="pc-link">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="proj-card reveal" data-tags="sql powerbi">
+          <div class="pc-num">12</div>
+          <div class="pc-emoji">🌍</div>
+          <div class="pc-tags"><span class="pct">SQL</span><span class="pct amber">Power BI</span></div>
+          <div class="pc-title">Population Census Analysis</div>
+          <div class="pc-desc">Demographic analysis — population growth, literacy rates, gender ratios, and urbanization across regions.</div>
+          <div class="pc-foot">
+            <span class="pc-tools">SQL · Power BI · DAX</span>
+            <a href="#" class="pc-link">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="proj-card reveal" data-tags="python">
+          <div class="pc-num">13</div>
+          <div class="pc-emoji">🎓</div>
+          <div class="pc-tags"><span class="pct">Python</span></div>
+          <div class="pc-title">Student Performance Analysis</div>
+          <div class="pc-desc">EDA on student grades and socioeconomic factors identifying key predictors of academic success.</div>
+          <div class="pc-foot">
+            <span class="pc-tools">Pandas · Matplotlib · Seaborn</span>
+            <a href="#" class="pc-link">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="proj-card reveal" data-tags="python sql">
+          <div class="pc-num">14</div>
+          <div class="pc-emoji">🏨</div>
+          <div class="pc-tags"><span class="pct">Python</span><span class="pct">SQL</span></div>
+          <div class="pc-title">Hotel Booking Cancellation Analysis</div>
+          <div class="pc-desc">120K bookings analyzed — cancellation patterns by lead time, season, and customer type.</div>
+          <div class="pc-foot">
+            <span class="pc-tools">Python · PostgreSQL · Seaborn</span>
+            <a href="#" class="pc-link">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="proj-card reveal" data-tags="python excel">
+          <div class="pc-num">15</div>
+          <div class="pc-emoji">🚲</div>
+          <div class="pc-tags"><span class="pct">Python</span><span class="pct amber">Excel</span></div>
+          <div class="pc-title">Bike Share Usage Analysis</div>
+          <div class="pc-desc">Peak hours, popular routes, weather impact, and seasonal demand shifts for a city bike network.</div>
+          <div class="pc-foot">
+            <span class="pc-tools">Pandas · Excel Dashboard</span>
+            <a href="#" class="pc-link">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="proj-card reveal" data-tags="python sql">
+          <div class="pc-num">16</div>
+          <div class="pc-emoji">🎬</div>
+          <div class="pc-tags"><span class="pct">Python</span><span class="pct">SQL</span></div>
+          <div class="pc-title">Netflix Content Strategy Analysis</div>
+          <div class="pc-desc">Genre trends, country-wise production volume, and release pattern analysis on Netflix catalog data.</div>
+          <div class="pc-foot">
+            <span class="pc-tools">Python · SQL · Seaborn</span>
+            <a href="#" class="pc-link">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="proj-card reveal" data-tags="sql python">
+          <div class="pc-num">17</div>
+          <div class="pc-emoji">🏦</div>
+          <div class="pc-tags"><span class="pct">SQL</span><span class="pct">Python</span></div>
+          <div class="pc-title">Bank Loan Default Risk Analysis</div>
+          <div class="pc-desc">High-risk loan segments identified from historical data. Risk tier classification by customer profile.</div>
+          <div class="pc-foot">
+            <span class="pc-tools">SQL · Python · Risk Modeling</span>
+            <a href="#" class="pc-link">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="proj-card reveal" data-tags="python excel">
+          <div class="pc-num">18</div>
+          <div class="pc-emoji">🌾</div>
+          <div class="pc-tags"><span class="pct">Python</span><span class="pct amber">Excel</span></div>
+          <div class="pc-title">Agricultural Yield Analysis</div>
+          <div class="pc-desc">India state-wise crop yield — rainfall correlation, soil type, and production trends over a decade.</div>
+          <div class="pc-foot">
+            <span class="pc-tools">Pandas · Excel Charts</span>
+            <a href="#" class="pc-link">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="proj-card reveal" data-tags="python">
+          <div class="pc-num">19</div>
+          <div class="pc-emoji">📱</div>
+          <div class="pc-tags"><span class="pct">Python</span></div>
+          <div class="pc-title">App Store Reviews Sentiment Analysis</div>
+          <div class="pc-desc">Scraped reviews analyzed for sentiment, recurring pain points, and feature requests using NLP.</div>
+          <div class="pc-foot">
+            <span class="pc-tools">Python · NLP · TextBlob</span>
+            <a href="#" class="pc-link">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="proj-card reveal" data-tags="powerbi excel">
+          <div class="pc-num">20</div>
+          <div class="pc-emoji">🏋️</div>
+          <div class="pc-tags"><span class="pct amber">Power BI</span><span class="pct amber">Excel</span></div>
+          <div class="pc-title">Fitness &amp; Health Metrics Dashboard</div>
+          <div class="pc-desc">Personal health analytics — steps, calories, sleep, and weekly fitness goal completion in Power BI.</div>
+          <div class="pc-foot">
+            <span class="pc-tools">Power BI · Excel</span>
+            <a href="#" class="pc-link">GitHub ↗</a>
+          </div>
+        </div> -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-tag reveal">05 / Contact</div>
+      <div class="contact-solo reveal">
+        <h2 class="contact-heading">Got a<br/><em>data problem?</em><br/>Let's fix it.</h2>
+        <p>Open to full-time Data Analyst roles, contract work, and fun data projects. Let's connect!</p>
+        <div class="c-links c-links-wide">
+          <a href="tel:+919343192081" class="c-link-row">
+            <div class="c-icon">📞</div>
+            <div><div class="c-link-label">Phone</div><div class="c-link-val">+91 9343192081</div></div>
+          </a>
+          <a href="mailto:bsbiswal231@gmail.com" class="c-link-row">
+            <div class="c-icon">✉</div>
+            <div><div class="c-link-label">Email</div><div class="c-link-val">bsbiswal231@gmail.com</div></div>
+          </a>
+          <a href="https://www.linkedin.com/in/bhabani-shankar-biswal/" class="c-link-row" target="_blank">
+            <div class="c-icon">in</div>
+            <div><div class="c-link-label">LinkedIn</div><div class="c-link-val">linkedin.com/in/bhabani-shankar-biswal</div></div>
+          </a>
+          <a href="https://github.com/Bsbiswal231" class="c-link-row" target="_blank">
+            <div class="c-icon">⌥</div>
+            <div><div class="c-link-label">GitHub</div><div class="c-link-val">github.com/Bsbiswal231</div></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-left">© 2025 Bhabani Shankar Biswal · Data Analyst</div>
+      <div class="footer-mid">Python · SQL · Power BI · Excel</div>
+      <a href="#hero" class="footer-top">↑ Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
